@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 import time
 from time import sleep
-
+import numpy
 #selenium.open("https://www.seleniumeasy.com/test/basic-select-dropdown-demo.html")
 driver=webdriver.Edge()
 driver.get("https://rahulshettyacademy.com/angularpractice/")
